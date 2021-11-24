@@ -7,7 +7,7 @@ pipeline {
         stage('Remove folder') { 
             steps { 
                 echo 'Remove folder'
-                sh 'rm -rf FirstDemo'
+                sh 'rm -rf Demo'
             }
         }
         stage('Git Clone') { 
